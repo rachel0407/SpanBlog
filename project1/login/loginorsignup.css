@@ -1,0 +1,52 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width:100%;
+    height: 100%;
+}
+
+.section-top{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url('./loginorsign1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 10s infinite;
+
+}
+.content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content h1{
+    color:white;
+    font-size: 56px;
+    letter-spacing: 10px;
+}
+.content a{
+    background-color: rgb(73, 112, 202);
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+@keyframes slide {
+    0%{
+        background-image: url('./loginorsign1.jpg');
+    }
+    33%{
+        background-image: url('./loginorsign2.jpg');
+    }
+    67%{
+        background-image: url('./loginorsign3.jpg');
+    }
+}

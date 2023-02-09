@@ -1,0 +1,41 @@
+
+.card{
+    display: inline-block;
+}
+#footerbtn{
+    background-color: black;
+    color: white;
+  }
+  #footerbtn:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .nav{
+    background-color: blanchedalmond;
+    padding-top: 1%;
+  }
+
+  .nav ul{
+  
+  }
+  .nav ul ul{
+    display: none;
+    text-align: center;
+    padding: 0;
+    background-color: rgba(190, 183, 154, 0.847);
+    height: 30%;
+    width: 90%;
+    
+  }
+  .nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 7%;
+    padding: 0 20px;
+  }
+
+ .nav ul li:hover+ul{
+    display: block;
+    z-index: 1;
+  }

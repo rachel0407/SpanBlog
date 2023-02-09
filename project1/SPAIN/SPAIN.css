@@ -1,0 +1,40 @@
+
+.card{
+    display: inline-block;
+}
+#footerbtn{
+    background-color: black;
+    color: white;
+  }
+  #footerbtn:hover{
+    color: black;
+    background-color: white;
+  }
+
+  .navbar{
+    background-color: rgb(230, 219, 197);
+  }
+  .nav-item:hover{
+    background-color: rgb(213, 188, 142);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  .mycontain{
+    width:100%;
+  }
+  .mycontain .cardtitle{
+    width:95%;
+    margin-left:5%;
+  }
+
+  .mycontain .card{
+    width:100%;
+margin-left: 2.3%;
+    
+  }
+
+.navbar .navbar-brand{
+    margin-left:0.5% ;
+  }
